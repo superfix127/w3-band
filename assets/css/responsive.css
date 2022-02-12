@@ -1,0 +1,106 @@
+/* TABLET VÀ MOBILE */
+
+@media ( max-width : 1023px) {
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a{
+        padding: 5px 12px;
+    }
+
+    .form-submit-btn {
+        padding: 16.5px 18px;
+    }
+
+    .contact-info {
+        line-height: 40px;
+        
+    }
+
+    .contact-form .form-control {
+        padding : 15.5px;
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0px 8px;
+    }
+
+    #footer .copyright a {
+        padding : 12px 0 ;
+        display : inline-block ;
+    }
+}
+
+/* TABLET */
+
+@media ( max-width :1023px) and (min-width: 740px) {
+    
+}   
+
+
+/* Mobile */
+
+@media ( max-width : 739px ){
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    
+    .s-full-width {
+        width : 100% !important;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+
+    .contact-info {
+        margin-bottom: 32px;
+    }
+}
+
+
